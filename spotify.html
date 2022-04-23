@@ -1,0 +1,43 @@
+<body>
+    <header>
+        <h1>Spotify Recommendation System</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                
+                <label>Song:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Enter a song">
+                <button class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Recommend</button>
+            </div>
+            <div class="info_div">
+                <p> Content Based</p>
+            </div>
+        </form>
+       <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Song:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Enter a song" autofocus>
+              
+                <button class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Recommend</button>
+            </div>
+            <div class="info_div">
+              <p> Popularity Based </p>  
+            </div>
+        </form>
+       <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Song:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Enter a song" autofocus>
+               
+                <button class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Recommend</button>
+            </div>
+            <div class="info_div">
+                <p> Collaborative Filtering </p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>When Words Fail, Music Speaks</p>
+    </footer>
+</body>
